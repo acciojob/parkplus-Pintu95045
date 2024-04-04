@@ -1,7 +1,7 @@
 package com.driver.services;
 
 public interface ParkingLotService {
-    
+
     void deleteSpot(int spotId);
 
     Spot updateSpot(int parkingLotId, int spotId, int pricePerHour);
